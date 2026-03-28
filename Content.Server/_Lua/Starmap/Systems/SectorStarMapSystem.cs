@@ -125,15 +125,7 @@ public sealed class SectorStarMapSystem : EntitySystem
                     sectorStars.Add(star);
                 }
             }
-<<<<<<< HEAD
-            var luaTechMapId = _sectorSystem.TryGetMapId("LuaTechSector", out var luaTechMap) ? luaTechMap : MapId.Nullspace;
-            if (luaTechMapId != MapId.Nullspace)
-            {
-                if (TryGetConfiguredPosition("LuaTechSector", out var position))
-                {
-                    var display = GetMapEntityName(luaTechMapId) ?? "LuaTech Sector";
-                    var star = new Star(position, luaTechMapId, display, Vector2.Zero);
-=======
+
             //DH PrisonSector
             var prisonMapId = _sectorSystem.TryGetMapId("PrisonSector", out var prisonMap) ? prisonMap : MapId.Nullspace;
             if (prisonMapId != MapId.Nullspace)
@@ -142,7 +134,6 @@ public sealed class SectorStarMapSystem : EntitySystem
                 {
                     var display = GetMapEntityName(prisonMapId) ?? "Prison Sector";
                     var star = new Star(position, prisonMapId, display, Vector2.Zero);
->>>>>>> b34311cc0e (DH 18-11)
                     sectorStars.Add(star);
                 }
             }
