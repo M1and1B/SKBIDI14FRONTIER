@@ -117,7 +117,6 @@
       state: blackmarket_key
 
 - type: entity
-<<<<<<< HEAD
   id: ComputerShipyardTypan
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyard]
   name: консоль кораблей синдиката
@@ -271,12 +270,6 @@
   parent: ComputerPalletConsoleSyndicateMarket
   id: ComputerPalletConsoleNFVeryHighMarketSyndicate
   suffix: Very High
-=======
-  parent: BaseNFFlatpack
-  id: MachineWarpDriveFlatpack
-  name: упакованный межзвёздный блюспейс двигатель
-  description: Упакованный межзвёздный блюспейс двигатель необходимый для межзвёздных путешествий
->>>>>>> b34311cc0e (DH 18-11)
   components:
   - type: MarketModifier
     mod: 1.50
@@ -499,109 +492,6 @@
   name: IFF computer
   suffix: Syndicate
   description: Allows you to control the IFF and stealth characteristics of this vessel.
-
-
-
-#region Shuttle Computers
-- type: entity
-  parent: ComputerShuttle
-  id: ComputerShuttleWithFrontierDisk
-  suffix: Диск Фронтир
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskFrontier
-
-- type: entity
-  parent: ComputerShuttle
-  id: ComputerShuttleWithMercenaryDisk
-  suffix: Диск Наёмники
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskMercenary
-
-- type: entity
-  parent: ComputerShuttle
-  id: ComputerShuttleWithNordfallDisk
-  suffix: Диск Нордфолл
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskNordfall
-
-- type: entity
-  parent: ComputerShuttle
-  id: ComputerShuttleWithPirateDisk
-  suffix: Диск Пираты
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskPirate
-
-- type: entity
-  parent: ComputerShuttle
-  id: ComputerShuttleWithCentComDisk
-  suffix: Диск ЦентКом
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskCentCom
-
-- type: entity
-  parent: ComputerTabletopShuttle
-  id: ComputerTabletopShuttleWithFrontierDisk
-  suffix: Диск Фронтир
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskFrontier
-
-- type: entity
-  parent: ComputerTabletopShuttle
-  id: ComputerTabletopShuttleWithMercenaryDisk
-  suffix: Диск Наёмники
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskMercenary
-
-- type: entity
-  parent: ComputerTabletopShuttle
-  id: ComputerTabletopShuttleWithNordfallDisk
-  suffix: Диск Нордфолл
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskNordfall
-
-- type: entity
-  parent: ComputerTabletopShuttle
-  id: ComputerTabletopShuttleWithPirateDisk
-  suffix: Диск Пираты
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskPirate
-
-- type: entity
-  parent: ComputerTabletopShuttle
-  id: ComputerTabletopShuttleWithCentComDisk
-  suffix: Диск ЦентКом
-  components:
-  - type: ContainerFill
-    containers:
-      disk_slot:
-      - CoordinatesDiskCentCom
 
 #region Shuttle LuaTech
 - type: entity

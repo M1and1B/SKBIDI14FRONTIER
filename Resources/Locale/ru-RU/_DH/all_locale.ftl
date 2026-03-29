@@ -1791,8 +1791,6 @@ custom-objective-format = [color=#FFAEC9]{$line}[/color]
 ent-DisabilitiesPeopleCrate = ящик для людей с ограниченными возможностями
     .desc = { ent-CratePlastic.desc }
 
-ent-ActionMechCycleEquipment = Переключить снаряжение
-    .desc = Переключает выбранное снаряжение.
 ent-ActionMechLights = Свет
     .desc = Переключает освещение меха.
 sector-name-PrisonSector = Космическая Тюрьма
