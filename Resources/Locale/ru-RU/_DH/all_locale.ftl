@@ -247,26 +247,6 @@ ent-ClothingUniformJumpsuitPrisoner = комбинезон заключённо�
 ent-ClothingUniformJumpskirtPrisoner = юбка-комбинезон заключённого
     .desc = Потрачено. Форма для срочника в тюрьме? Надейтесь на благосклонность не только охранников, но и "серых" зеков.
 
-ent-BookshelfSmoothRight = книжный шкаф
-    .desc = Преимущественно, наполнен книгами.
-    .suffix = Право
-ent-BookshelfSmoothCenter = книжный шкаф
-    .desc = Преимущественно, наполнен книгами.
-    .suffix = Центр
-ent-BookshelfSmoothLeft = книжный шкаф
-    .desc = Преимущественно, наполнен книгами.
-    .suffix = Лево
-
-ent-BookshelfSmoothRightFilled = книжный шкаф
-    .desc = Преимущественно, наполнен книгами.
-    .suffix = Право, Заполненный, СЛучайный
-ent-BookshelfSmoothCenterFilled = книжный шкаф
-    .desc = Преимущественно, наполнен книгами.
-    .suffix = Центр Заполненный, СЛучайный
-ent-BookshelfSmoothLeftFilled = книжный шкаф
-    .desc = Преимущественно, наполнен книгами.
-    .suffix = Лево Заполненный, СЛучайный
-
 ent-KvassTank = бочка кваса
     .suffix = Пустой
     .desc = Та самая бочка с освежающим хлебным нектаром.

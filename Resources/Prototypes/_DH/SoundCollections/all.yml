@@ -129,7 +129,7 @@
   - /Audio/_DH/Weapons/Guns/Pistols/Revolvers/pickup2.ogg
 
 - type: soundCollection
-  id: RevolversDrop
+  id: DHRevolversDrop
   files:
   - /Audio/_DH/Weapons/Guns/Pistols/Revolvers/drop1.ogg
   - /Audio/_DH/Weapons/Guns/Pistols/Revolvers/drop2.ogg
