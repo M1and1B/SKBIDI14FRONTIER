@@ -122,73 +122,73 @@
   - type: UseDelay
     delay: 0.5
 
-- type: entity
-  name: AK-514
-  parent: BaseWeaponRifle
-  id: WeaponRifleAK514
-  components:
-  - type: Sprite
-    sprite: _DH/Objects/Weapons/Guns/Rifles/ak514/big.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: _DH/Objects/Weapons/Guns/Rifles/ak514/tiny.rsi
-  - type: Item
-    size: Huge
-    shape:
-    - 0,0,4,2
-    sprite: _DH/Objects/Weapons/Guns/Rifles/ak514/tiny.rsi
-  - type: GunWieldBonus
-    minAngle: -15
-    maxAngle: -35
-  - type: Gun
-    projectileSpeed: 34
-    minAngle: 24
-    maxAngle: 45
-    fireRate: 6  # 10 в секунду - реалистично. 5, так как сс14
-    soundGunshot:
-      collection: ak47
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: LuaMagazineCaselessRifle
-        insertSound: /Audio/_DH/Weapons/Guns/Rifles/AK/ak_reload.ogg
-        ejectSound: /Audio/_DH/Weapons/Guns/Rifles/AK/ak_unload.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - NFMagazineRifle30
-            - MagazineLightRifle
-            - MagazineCaselessRifle
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeCaselessRifle
-        priority: 1
-        whitelist:
-          tags:
-            - NFCartridgeRifle30
-            - CartridgeLightRifle
-            - CartridgeCaselessRifle
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: Wieldable
-  - type: UseDelay
-    delay: 0.5
-  - type: ChamberMagazineAmmoProvider
-    autoEject: true
-    soundRack:
-      path: /Audio/_DH/Weapons/Guns/Rifles/AK/ak_cocked.ogg
+# - type: entity
+#   name: AK-514
+#   parent: BaseWeaponRifle
+#   id: WeaponRifleAK514
+#   components:
+#   - type: Sprite
+#     sprite: _DH/Objects/Weapons/Guns/Rifles/ak514/big.rsi
+#     layers:
+#     - state: base
+#       map: ["enum.GunVisualLayers.Base"]
+#     - state: mag-0
+#       map: ["enum.GunVisualLayers.Mag"]
+#   - type: Clothing
+#     sprite: _DH/Objects/Weapons/Guns/Rifles/ak514/tiny.rsi
+#   - type: Item
+#     size: Huge
+#     shape:
+#     - 0,0,4,2
+#     sprite: _DH/Objects/Weapons/Guns/Rifles/ak514/tiny.rsi
+#   - type: GunWieldBonus
+#     minAngle: -15
+#     maxAngle: -35
+#   - type: Gun
+#     projectileSpeed: 34
+#     minAngle: 24
+#     maxAngle: 45
+#     fireRate: 6  # 10 в секунду - реалистично. 5, так как сс14
+#     soundGunshot:
+#       collection: ak47
+#   - type: ItemSlots
+#     slots:
+#       gun_magazine:
+#         name: Magazine
+#         startingItem: LuaMagazineCaselessRifle
+#         insertSound: /Audio/_DH/Weapons/Guns/Rifles/AK/ak_reload.ogg
+#         ejectSound: /Audio/_DH/Weapons/Guns/Rifles/AK/ak_unload.ogg
+#         priority: 2
+#         whitelist:
+#           tags:
+#             - NFMagazineRifle30
+#             - MagazineLightRifle
+#             - MagazineCaselessRifle
+#       gun_chamber:
+#         name: Chamber
+#         startingItem: CartridgeCaselessRifle
+#         priority: 1
+#         whitelist:
+#           tags:
+#             - NFCartridgeRifle30
+#             - CartridgeLightRifle
+#             - CartridgeCaselessRifle
+#   - type: ContainerContainer
+#     containers:
+#       gun_magazine: !type:ContainerSlot
+#       gun_chamber: !type:ContainerSlot
+#   - type: MagazineVisuals
+#     magState: mag
+#     steps: 1
+#     zeroVisible: true
+#   - type: Appearance
+#   - type: Wieldable
+#   - type: UseDelay
+#     delay: 0.5
+#   - type: ChamberMagazineAmmoProvider
+#     autoEject: true
+#     soundRack:
+#       path: /Audio/_DH/Weapons/Guns/Rifles/AK/ak_cocked.ogg
 
 - type: entity
   name: Famas
